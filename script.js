@@ -213,10 +213,7 @@ async function show_popup(card) {
     <div class="img_poster">
         <img src="${imagepath + movie.poster_path}">
     </div>
-    <div class="info">
-        <span>Add To Favorties:</span>
-        <span class="heart">&#9829</span>
-    </div>
+    
 
 </div>
 <div class="right_content">
@@ -266,18 +263,18 @@ async function show_popup(card) {
 </div>
 </div>`
 
-    const heartBtn = document.querySelector('.heart')
+    // const heartBtn = document.querySelector('.heart')
 
-    heartBtn.addEventListener('click',  () => {
+    // heartBtn.addEventListener('click',  () => {
       
-        if (heartBtn.classList.contains('changed')) {
-            heartBtn.classList.remove('changed')    
-        }
-        else{
+    //     if (heartBtn.classList.contains('changed')) {
+    //         heartBtn.classList.remove('changed')    
+    //     }
+    //     else{
         
-            heartBtn.classList.add('changed')
-        }
-    })
+    //         heartBtn.classList.add('changed')
+    //     }
+    // })
 
 
 

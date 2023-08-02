@@ -33,13 +33,13 @@ html{
     position: sticky;
     border: blur;
     z-index: 5;
-    top: 0;
+    top: 1%;
     left: 2%;
     color: #163435;
     background-color: #e5e7e7;
     border: none;
     outline: none;
-    /* border: 1px solid var(--third-color); */
+    border: 1px solid var(--third-color);
     /* padding: ; */
     font-size: 25px;
     border-radius: 5px;
@@ -86,7 +86,7 @@ align-items: center;
 
 
 .back:active {
-    transform: scale(.8);
+    transform: scale(.9);
 }
 
 * {
