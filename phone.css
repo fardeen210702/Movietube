@@ -1,0 +1,124 @@
+    @media only screen  and (max-width:320px) {
+        .search {
+            padding: 2px 10px;
+            gap: 1%;
+            margin: 10% 1%;
+            /* border: 1px solid var(--primary-color); */
+            border-radius: 30px;
+
+        }
+        
+        .search>input {
+            border: none;
+            width: 90%;
+            border-radius: 30px;
+        }
+
+        .search>button {
+            border: none;
+            border-radius: 50%;
+            /* padding: 10px ; */
+            font-size: large;
+        }
+
+        .togglebtn,
+        .back {
+            border: 1px solid var(--third-color);
+            font-size: large;
+            margin: 10px 5px;
+            padding: 10px 12px;
+            border-radius: 50%;
+        }
+
+        .movies_container>h1 {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+
+        .card {
+            width: 45%;
+            /* display: flex; */
+        }
+
+        .movie_grid {
+            margin: 1rem;
+        }
+
+        .img_container {
+            height: 100px;
+        }
+
+        .card>.info {
+            padding: 2px 0;
+            /* border: 1px solid rgb(206, 191, 191); */
+        }
+
+        .card>.info>h2 {
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .card>.info>.info_1 {
+            padding: 0 10px;
+            font-size: 12px;
+        }
+
+        /* pop-up contaner */
+        .popup_container {
+            width: 100vw;
+            /* padding: 10px; */
+        }
+
+        .content {
+            margin: 10px;
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100vw;
+        }
+
+        .left_content {
+            width: 100vw;
+        }
+
+        .left_content>.img_poster {
+            display: none;
+        }
+
+        .left_content>.xbar {
+            top: 1%;
+            right: 4%;
+        }
+
+        .left_content>.info {
+            /* border: 1px solid red; */
+            width: 76%;
+            /* border: 1px solid red; */
+            padding: 1px 0;
+            margin: -30px 30px 0 30px;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .right_content {
+            /* margin-top: -30px; */
+            padding: 10px;
+            width: 100vw;
+            /* border: 2px solid red; */
+        }
+
+        .trailer {
+            /* border: 2px solid green; */
+            width: 100%;
+        }
+
+        .info_container .trailer iframe {
+            width: 90%;
+            height: 10%;
+        }
+
+        .right_content .overview {
+            padding: 10px;
+        }
+    }

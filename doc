@@ -1,0 +1,39 @@
+<!-- apikey -->
+58129d8780baa414abaffbc3f3d479b4
+
+https://api.themoviedb.org/3/movie/157336?api_key=58129d8780baa414abaffbc3f3d479b4
+
+https://api.themoviedb.org/3/movie/157336/videos?api_key=58129d8780baa414abaffbc3f3d479b4
+
+
+<!-- image path -->
+'https://image.tmdb.org/t/p/w500'
+
+
+
+<!-- youtube player  -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kmo8NLKkfcQ" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowful1screen></iframe>
+
+
+
+<!-- <fonts> -->
+    font-family: 'Merienda', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Varela Round', sans-serif;
+
+== Movie Trailer ==
+https://api. themoviedb.org/3/movie/S{id}/videos?api_key=here-goes-api-key
+
+•• Trending Movies
+https://api. themoviedb.org/3/trending/all/day?api key-here-goes-api-key
+
+<!-- id -->
+https://api.themoviedb.org/3/movie/${id}?api key-here-goes-api-key
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500;700&family=Roboto+Slab&family=Secular+One&family=Varela+Round&display=swap');
+
+<!-- /////////////////////////////////// -->
