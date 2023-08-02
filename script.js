@@ -192,7 +192,8 @@ async function fetchMovies_by_trailer(id) {
 async function show_popup(card) {
     // display = false;
     bottomBtn.style.display = "none"
-    topBtn.style.display = "none"
+    topBtn.style.display = "none";
+    backBtn.style.display = "none"
 
 
     popup_container.classList.add('show_popup')
@@ -291,6 +292,7 @@ async function show_popup(card) {
         
         bottomBtn.style.display = "block"
         topBtn.style.display = "block"
+        backBtn.style.display = "block"
     
         popup_container.classList.remove('show_popup')
     })

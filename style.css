@@ -21,23 +21,47 @@ html{
     position: fixed;
     top: 25%;
     right: 3%;
-    color: white;
+    color: #163435;
     padding: 10px;
     border: none;
     outline: none;
-    background-color: black;
+    background-color: #e5e7e7;
+    border-radius: 5px;
+    font-size: 20px;
 }
+.back {
+    position: sticky;
+    border: blur;
+    z-index: 5;
+    top: 0;
+    left: 2%;
+    color: #163435;
+    background-color: #e5e7e7;
+    border: none;
+    outline: none;
+    /* border: 1px solid var(--third-color); */
+    /* padding: ; */
+    font-size: 25px;
+    border-radius: 5px;
+
+    padding: 5px;
+    margin-left: 5px;
+}
+
 #bottom{
     display: flex;
 align-items: center;
     position: fixed;
     bottom: 5%;
     right: 3%;
-    color: white;
+    color: #163435;
+    border-radius: 5px;
+    font-size: 20px;
+
     padding: 10px;
     border: none;
     outline: none;
-    background-color: black;
+    background-color: #e5e7e7;
 }
 .togglebtn {
     color: var(--primary-color);
@@ -59,25 +83,10 @@ align-items: center;
 .togglebtn:active {
     transform: scale(.9);
 }
-.back {
-    position: sticky;
-    border: blur;
-    z-index: 5;
-    top: 0;
-    left: 2%;
-    color: var(--primary-color);
-    background: transparent;
-    border: none;
-    outline: none;
-    /* border: 1px solid var(--third-color); */
-    /* padding: ; */
-    font-size: 30px;
-    margin-left: 5px;
-}
 
 
 .back:active {
-    transform: scale(.9);
+    transform: scale(.8);
 }
 
 * {
