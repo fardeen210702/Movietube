@@ -190,11 +190,10 @@ async function fetchMovies_by_trailer(id) {
 // fetchMovies_by_trailer(1067282) 
 
 async function show_popup(card) {
-    // display = false;
+   
     bottomBtn.style.display = "none"
     topBtn.style.display = "none";
     backBtn.style.display = "none"
-
 
     popup_container.classList.add('show_popup')
    
